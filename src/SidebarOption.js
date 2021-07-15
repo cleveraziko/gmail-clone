@@ -1,8 +1,14 @@
 import React from "react";
-import "./Sidebar.css";
+import "./SidebarOption.css";
 
-function SidebarOption(props) {
-  return <div className="sidebarOption">hellp</div>;
+function SidebarOption({ Icon, title, number }) {
+  return (
+    <div className="sidebarOption">
+      <Icon />
+      <h1>{title}</h1>
+      <p>{number}</p>
+    </div>
+  );
 }
 
 export default SidebarOption;
