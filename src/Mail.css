@@ -56,3 +56,10 @@
   margin-right: 20px;
   overflow-wrap: break-word;
 }
+
+.sendMail__errors {
+  background: white;
+  color: red;
+  text-align: right;
+  padding: 2px;
+}
