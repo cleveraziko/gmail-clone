@@ -17,7 +17,7 @@ function App() {
             <Route path="/mail">
               <Mail />
             </Route>
-            <Route path="/mail">
+            <Route path="/">
               <EmailList />
             </Route>
           </Switch>
